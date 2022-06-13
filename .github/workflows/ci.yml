@@ -1,9 +1,9 @@
-name:Testing
-on:push
+name: Testing
+on: push
 
 
 jobs:
-  test_project:
+test_project:
       runs-on: ubuntu-latest
       steps:
       - uses: actions/checkout@v2
